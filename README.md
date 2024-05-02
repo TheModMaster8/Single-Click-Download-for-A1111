@@ -13,3 +13,6 @@ my stratigy is this.
   3.  use list with sel_index and retrieve image name,
   4.  use name to test is image is in the latest C:\...\stable-diffusion-webui\outputs\txt2img-images\####-##-##
   5.  if it is copy the image to the user's download folder.
+
+what i have so far, this works when only one image is generated. (the blue down arrow is the added button) 
+![semi functional implemtation](https://github.com/TheModMaster8/Single-Click-Download-for-A1111/assets/10178387/ff79122a-0b29-4fde-baf1-92ff211f1cfa)
