@@ -76,6 +76,7 @@ def on_after_component(component, **kwargs):
             ssavb_save_button = gr.Button(value=save_symbol)
         else:
             ssavb_save_button = ToolButton(save_symbol, elem_id=tab_current + "_ssavb_save_button", tooltip="Save/Download")
+        
         ssavb_save_button.click(
             fn=ssavb_save,
             inputs=[ssavb_save_info],
